@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Concerts For You!</title>
+    <link rel="stylesheet" href="sitelayout_final.css"/>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    
+</head>
+<body>
+    
+    <div class="container-fluid">
+        <div class="header">
+            <div class="logo">
+                <img src="cfylogo3.png" alt="Company logo" class="logo-img"/>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="#">About Us</a>
+                        <ul class="submenu1">
+                            <li><a href="#">Creation of Concerts For You</a></li>
+                            <li><a href="#">How are we</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Concerts</a>
+                        <ul class="submenu2">
+                            <li><a href="#">Associated Bands</a></li>
+                            <li><a href="#">Upcoming Concerts</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">QA</a>
+                        <ul class="submenu3">
+                            <li><a href="#">Terms and Conditions</a></li>
+                            <li><a href="#">Ticket Sales & Refunds</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="mid-section " >
+            <div class="slider col-sm-9 col-md-9 col-9" id="slider">
+                <!-- <div class="subtitle"> -->
+                    <div class="subtitle-paragraph">
+                        <div>
+                            <p>
+                                Are you tired of always waiting for a concert organizer to bring your favorite band?
+                                Wait no more!
+                                <br>
+                                Join our platform and bring them yourself!
+                                <br>
+                                Our team, as fans ourselves, are dedicated to try to bring your favorite artists here in Greece and
+                                provide you with the most awesome experience you 've ever had!
+                            </p>      
+                        </div>  
+                    </div>
+              
+            </div>
+            <div class="signup-form col-sm-3 col-md-3 col-3">
+                <div class="signup-innerform">
+                    <div style="margin:0 auto;">
+                        <img src="arrowdownimg.PNG" class="bounce arrow"> 
+                    </div>                                      
+                    <div class="form-header">
+                        <i><h3>Sign Up Here Now!</h3></i>    
+                    </div>
+                        <form> 
+                            <div class="row">
+                                <input type="text" placeholder="Username" class="form-input" id="psswrd">      
+                            </div>        
+                            <div class="row">
+                                <input type="password" placeholder="password" class="form-input" required minlength="8" id="pswrd"><span class="tick-icon" id="tick-span">tick</span>   
+                                <span class="pswrd-rule" id="pswrd-rule">8 Characters minimum!</span>
+                            </div>
+                            <div class="row">
+                            <input type="email" placeholder="E-mail" class="form-input" required><span></span>
+                            </div>  
+                            <div class="row">
+                                <input type="number" placeholder="Age" class="form-input" min="18" id="age">
+                                <span class="overage-rule" id="age-rule">Over 18 only!</span>    
+                            </div>  
+                            <div class="row">
+                                <input type="Favorite Band" placeholder="Favorite Band!" class="form-input">
+                            </div>                                
+                        </form>
+                        <div style="display:none;text-shadow: black;" id="successmsg">
+                            <p>Succesful Sign Up! You will receive an email to verify your account!</p>
+                        </div>
+                    <div class="footer">
+                        <button id="submit" class="subBtn" onclick="Submit()">Submit</button>
+                    </div>
+                    <div>
+                        <a href="">Click Here to petition for your favorite band!!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="mainsection">
+            <div class="main-title">
+                <h1>Why join our platform</h1>
+            </div>
+            <div class="main-text">
+                <p class="lead">Concert organizers never take the account the thoughts and hopes of thousands of music lovers who are anxiously waiting for their
+                favorite band to visit their country.Instead, they only think about maximizing profit and cater to the music tastes of very specific groups.
+                If you're as tired of this as we are, simply join us here and take matters in your hands!
+            </p>
+            </div>
+            <div class="main-title">
+                <h1>How it works</h1>
+            </div>
+            <div class="main-text">
+                <p class="lead">In order for us to be able to negotiate with the artists, we need to reach a certain budget target (different for each artist).
+                    <br>
+                    For every one of you who petitions for a band, we need you to donate a certain amount so that we can reach the specified budget.
+                    In case that your desired artist comes for a concert, your donation will be discounted from the concert ticket via a voucher!
+                    In case that we dont't succeed within of 6 months  of your donation, you will be reimbursed with the full amount!
+                </p>
+            </div>
+
+        </div>
+        <div class="footer">
+            <div class="copyright">
+                <p class="lead">
+                    &copy; Concerts For You. All rights reserved, 2022
+                </p>
+            </div>
+            <div class="social">
+                <p class="lead">
+                    Follow us on Social Media!
+                </p>
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter-square"></i>
+            </div>
+        </div>
+    </div>
+
+<script src="finalproject.js">
+
+</script>
+</body>
+
+</html>

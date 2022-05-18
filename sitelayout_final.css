@@ -1,0 +1,623 @@
+﻿*
+{
+
+    box-sizing : border-box;
+
+    margin:0;
+    padding: 0;
+}
+
+ body, html {
+
+     height:100%;
+ }
+.container {
+
+    width:100%;
+    margin: 0 auto;
+    height:100%;
+
+}
+
+.header {
+
+    width:100%;
+    margin: 0 auto;
+    background-color:#363636;
+    overflow: hidden; 
+    display:flex;
+    align-items:center;
+    top:0;
+    height:15%;
+
+}
+
+.logo {
+
+    width:45%;
+    float:left;
+    height: 100%;
+    
+    object-fit: cover;
+}
+
+.logo-img {
+
+    display:block;
+    max-width: 45%;
+    height: 100%;
+
+}
+.menu {
+
+    width: 55%;
+    float: right;
+    vertical-align: baseline;
+    
+}
+.submenu1 {
+    display: none;
+    vertical-align: baseline;
+    
+}
+
+.submenu2 {
+    display: none;
+    vertical-align: baseline;
+}
+
+.submenu3 {
+    display: none;
+    vertical-align: baseline;
+}
+
+
+
+.submenu1 > li >a {
+
+    color: white;
+
+
+}
+
+.submenu2 > li >a {
+
+    color: white;
+
+
+}
+
+.submenu3 > li >a {
+
+    color: white;
+
+
+}
+
+.submenu1 a:hover {
+
+   transform:scale(1.5);
+
+
+}
+
+.menu > ul li:hover > ul {
+    display: block;
+    position: absolute;
+    list-style: none;
+    line-height: 40px;
+    
+}
+
+
+.menu  > ul {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: end;
+    text-decoration-color:black;
+    background-color: bisque;
+    border-radius: 5px;
+}
+
+    .menu > ul li {
+        list-style: radial-gradient();
+        text-decoration: none;
+        
+
+    }
+    
+    
+.menu a {
+    text-decoration: none;
+    color:black;
+}
+
+.mid-section {
+
+   background-image: url('concert.jpg');
+   background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+}
+
+.slider {
+    width: 75%;
+    background-image: url('concert.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    float: left;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+}
+
+.signup-form {
+
+    
+    background-color: bisque;
+    border-radius: 5px;
+    float: right;
+    width: 25%;
+    align-items: center;
+    text-align: center;
+}
+
+.form-header {
+
+        display: block;
+        text-align: center;
+        margin-top:50px;
+        
+        
+
+
+}
+
+.signup-innerform {
+    
+    width:75%;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: lightgrey;
+    margin: 50px auto;
+}
+
+.row {
+
+    text-align: center;
+    padding:15px;
+
+}
+
+.form-input {
+    width:75%;
+    height:50px;
+    margin: 5px auto;
+    border-radius: 5px;
+    border:1px solid black;
+    text-align: center ;
+
+}
+
+.form-input:hover {
+
+    text-decoration:wavy;
+    
+    background-color: bisque;
+    
+}
+
+.title {
+    padding-top: 500px;
+    padding-bottom: 60px;
+    font-family: "Roboto Slab, serif";
+    color:white;
+    vertical-align: top;
+    text-align: left;
+    height: 100%;
+    width:25%;
+    float: left;
+}
+
+.subtitle {
+   height: 100%;
+    font-family: "Roboto Slab, serif";
+    color: white;
+    width:75%;
+    float: right;
+    justify-content: left;
+}
+.subtitle-paragraph {
+
+    
+    margin: 250px auto;
+    justify-content: center;
+    font-size: 32px;
+    word-wrap: break-word;
+    text-align: center;
+    color: white;
+
+}
+.main {
+
+    width:100%;
+    margin: 0 auto;
+    padding: 40px 25px;
+}
+
+.main-title {
+
+    width:100%;
+    padding-bottom:10px;
+    padding-left:25px;
+    margin: 0 auto;
+
+}
+
+    .main-title > h1 {
+        font-family: "Roboto Slab, serif";
+    }
+
+.main-text {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 25px;
+    margin-bottom: 5px;
+}
+
+.main-text > p {
+
+    font-family:'Quicksand, sans-serif';
+
+    line-height:25px;
+
+}
+
+.mainsection {
+
+    background-color: lightgray;
+
+}
+.footer {
+
+    display:flex;
+    align-items: center;
+    width:100%;
+    margin: 0 auto;
+    padding: 30px 20px;
+    overflow:hidden;
+    background-color: lightgray;
+    
+}
+
+.subBtn {
+
+    width:75%;
+    height:40px;
+    margin: 50px auto;
+    background-color: bisque;
+    border-radius: 5px;
+    box-shadow: black;
+    transition:1s;
+
+}
+
+.subBtn:hover {
+
+    transform: scale(1.2);
+    box-shadow: 0px 5px 5px #888888;
+    padding:15px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.copyright > p {
+    font-family: 'Quicksand, sans-serif';
+
+}
+
+.copyright {
+
+    width:40%;
+    float:left;
+}
+
+.social {
+
+    display:flex;
+    align-items:center;
+    width:60%;
+    float:right;
+}
+
+.social > p {
+
+    margin-right:10px;
+    font-size:0.8rem;
+
+}
+
+.fab {
+
+    font-size:30px;
+    color:blue;
+    margin-right:5px;
+
+}
+
+.MySlides1 {
+
+    background-image: url('concert.jpg');
+
+
+}
+
+.MySlides2 {
+
+    background-image: url('concert-g6b7b40f70_1280.jpg');
+}
+
+.MySlides3 {
+
+    background-image: url('hugo-l-casanova-eXb2qYOcnys-unsplash.jpg');
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.menu-btn {
+
+    display: none;
+    background-image: url('menu-btn.png') ;
+
+
+}
+
+.email:valid + span::before {
+
+    content:"\2713";
+    color: green;
+    font-size:20px;
+}
+
+.password:valid + span::after {
+
+    content:"\2713";
+    color: green;
+    font-size:20px;
+}
+.overage-rule {
+
+display: none;
+margin: 0 auto;
+
+}
+
+.pswrd-rule {
+
+    display: none;
+    margin:0 auto;
+
+}
+
+.tick-icon {
+
+    display: none;
+    content:"\2713";
+
+}
+
+.tick {
+
+    background-image:"\2713"; 
+}
+.arrow {
+    text-align: center;
+    margin: 8% 0;
+  }
+  .bounce {
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+  }
+   
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
+
+@media only screen and (max-width:576px) {
+
+    .col-sm-1 {
+        width: 8.33%;
+    }
+
+    .col-sm-2 {
+        width: 16.66%;
+    }
+
+    .col-sm-3 {
+        width: 25%;
+    }
+
+    .col-sm-4 {
+        width: 33.33%;
+    }
+
+    .col-sm-5 {
+        width: 41.66%;
+    }
+
+    .col-sm-6 {
+        width: 50%;
+    }
+
+    .col-sm-7 {
+        width: 58.33%;
+    }
+
+    .col-sm-8 {
+        width: 66.66%;
+    }
+
+    .col-sm-9 {
+        width: 75%;
+    }
+
+    .col-sm-10 {
+        width: 83.33%;
+    }
+
+    .col-sm-11 {
+        width: 91.66%;
+    }
+
+    .col-sm-12 {
+        width: 100%;
+    }
+
+    .subBtn {
+        font-size: xx-small;
+    }
+
+    .form-input{
+        font-size: xx-small;
+        
+    }
+    .subBtn:hover {
+
+        /* transform: scale(1.2); */
+        box-shadow: 0px 5px 5px #888888;
+        padding:15px;
+        font-size: xx-small;
+        /* text-transform: uppercase; */
+    
+    }
+    
+    /* .menu {
+        display:none;
+    } */
+
+    .menu-btn {
+
+        display: block;
+    }
+}
+
+@media only screen and (min-width:768px) {
+
+    .col-md-1 {
+        width: 8.33%;
+    }
+
+    .col-md-2 {
+        width: 16.66%;
+    }
+
+    .col-md-3 {
+        width: 25%;
+    }
+
+    .col-md-4 {
+        width: 33.33%;
+    }
+
+    .col-md-5 {
+        width: 41.66%;
+    }
+
+    .col-md-6 {
+        width: 50%;
+    }
+
+    .col-md-7 {
+        width: 58.33%;
+    }
+
+    .col-md-8 {
+        width: 66.66%;
+    }
+
+    .col-md-9 {
+        width: 75%;
+    }
+
+    .col-md-10 {
+        width: 83.33%;
+    }
+
+    .col-md-11 {
+        width: 91.66%;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+
+}
+
+
+@media only screen and (min-width:992px) {
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+}
